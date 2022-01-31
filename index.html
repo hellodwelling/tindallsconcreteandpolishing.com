@@ -222,7 +222,7 @@
                             class="flex items-center justify-center flex-shrink-0 pr-5 bg-white rounded-md  focus:ring-2 focus:outline-none ring-primary ring-opacity-75 ring-offset-2"
                         >
                             <img
-                                class="w-[80px] h-[80px] xl:w-[150px] xl:h-[150px] scale-100 origin-left transition"
+                                class="h-[80px] xl:h-[150px] scale-100 origin-left transition w-auto"
                                 src="https://landing-page-app-hero-images.s3.amazonaws.com/media/b6ce3ff6-c72b-440e-b069-9ea55842335b.jpeg"
                                 alt="Brand Logo"
                             />
@@ -594,7 +594,7 @@
                             href="/"
                             class="flex items-center justify-center flex-shrink-0 bg-white rounded-b-lg focus-visible:ring focus:outline-none ring-primary"
                         >
-                            <img class="w-[80px] h-[80px]" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/b6ce3ff6-c72b-440e-b069-9ea55842335b.jpeg" alt="Brand Logo" />
+                            <img class="h-[80px]" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/b6ce3ff6-c72b-440e-b069-9ea55842335b.jpeg" alt="Brand Logo" />
                         </a>
                     </div>
                     <div class="-mr-2">
@@ -839,6 +839,7 @@
                 viewBox="0 0 100 100"
                 preserveAspectRatio="none"
                 aria-hidden="true"
+                style="z-index:-1"
             >
                 <polygon points="50,0 100,0 50,100 0,100" />
             </svg>
@@ -847,7 +848,7 @@
                 <div class="sm:text-center lg:text-left">
                     <h1 class="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
                         <span class="block xl:inline text-primary">
-                            Tindall&#x27;s Concrete &amp; Polishing in Southern Illinois, IL
+                            Tindall&#x27;s Concrete &amp; Polishing
                         </span>
                         <!-- <span class="block xl:inline text-primary">Caro Landscaping in Austin, TX</span> -->
                     </h1>
@@ -1051,6 +1052,40 @@
             
             <!-- Single Logo -->
             
+            <!-- Single Logo -->
+            
+            <!-- Single Logo -->
+            
+            <div class="flex items-center px-4 m-4 space-x-3 font-medium text-primary">
+                <svg aria-hidden="true" class="flex-shrink-0 w-12 h-12" fill="none">
+                    <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M12 21.6v-4.8c0-6.627 5.373-12 12-12s12 5.373 12 12v4.8a4.8 4.8 0 0 1 4.8 4.8v12a4.8 4.8 0 0 1-4.8 4.8H12a4.8 4.8 0 0 1-4.8-4.8v-12a4.8 4.8 0 0 1 4.8-4.8Zm19.2-4.8v4.8H16.8v-4.8a7.2 7.2 0 1 1 14.4 0Z"
+                        fill="currentColor"
+                    />
+                </svg>
+                <span class="text-xl">Emergency Services</span>
+            </div>
+            
+            <!-- Single Logo -->
+            
+            <div class="flex items-center px-4 m-4 space-x-3 font-medium text-primary">
+                <svg aria-hidden="true" class="flex-shrink-0 w-12 h-12" fill="none">
+                    <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M7.7 14.4a7.2 7.2 0 0 1 7.2-7.2h24a2.4 2.4 0 0 1 1.92 3.84L34.7 19.2l6.12 8.16a2.4 2.4 0 0 1-1.92 3.84h-24a2.4 2.4 0 0 0-2.4 2.4v7.2a2.4 2.4 0 1 1-4.8 0V14.4Z"
+                        fill="currentColor"
+                    />
+                </svg>
+                <span class="text-xl">Locally Owned</span>
+            </div>
+            
+            <!-- Single Logo -->
+            
+            <!-- Single Logo -->
+            
         </div>
     </div>
 </section>
@@ -1163,7 +1198,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
 </section>
 
                 <!-- Our Services Component -->
-<section x-data="{ showMore: false }" class="overflow-hidden bg-white">
+<section x-data="{ showMore: false }" class="overflow-hidden bg-white" id="services">
     <div class="relative px-4 py-12 mx-auto max-w-7xl sm:px-6 lg:py-16 lg:px-8">
         <!-- Decorative Dots with Slide-in (right) animation -->
         <div x-cloak x-data="{ shown: false }" x-intersect.half="shown = true">
@@ -1254,6 +1289,10 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                         sm:opacity-0
                                         group-hover:opacity-100
                                     "
+                                    style="
+                                    display: -webkit-box;
+                                    -webkit-line-clamp: 5;
+                                    -webkit-box-orient: vertical;  "
                                 >
                                     Our Polished Concrete service is a high quality, detail orientated service. We are committed to provided the best value to you.
                                 </p>
@@ -1306,6 +1345,10 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                         sm:opacity-0
                                         group-hover:opacity-100
                                     "
+                                    style="
+                                    display: -webkit-box;
+                                    -webkit-line-clamp: 5;
+                                    -webkit-box-orient: vertical;  "
                                 >
                                     Our Overlay Systems service is top quality from founders with multiple years of experience. We ensure you receive the best quality at hand.
                                 </p>
@@ -1358,6 +1401,10 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                         sm:opacity-0
                                         group-hover:opacity-100
                                     "
+                                    style="
+                                    display: -webkit-box;
+                                    -webkit-line-clamp: 5;
+                                    -webkit-box-orient: vertical;  "
                                 >
                                     Epoxy Systems is a service that provides epoxy coatings for a variety of surfaces. The coatings are applied with precision and attention to detail, ensuring a high-quality finish. Epoxy Systems offers a reasonable price for their services, making them a popular choice for those looking for an affordable option.
                                 </p>
@@ -1410,6 +1457,10 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                         sm:opacity-0
                                         group-hover:opacity-100
                                     "
+                                    style="
+                                    display: -webkit-box;
+                                    -webkit-line-clamp: 5;
+                                    -webkit-box-orient: vertical;  "
                                 >
                                     Stain is a hardworking, affordable, and detail-oriented service provider. We take pride in our work and always aim to provide our clients with the best possible service. We are reasonable in our pricing and always work to stay within budget. We understand the importance of attention to detail and ensure that all of our work is
                                 </p>
@@ -1462,6 +1513,10 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                         sm:opacity-0
                                         group-hover:opacity-100
                                     "
+                                    style="
+                                    display: -webkit-box;
+                                    -webkit-line-clamp: 5;
+                                    -webkit-box-orient: vertical;  "
                                 >
                                     The Coatings Removal service is a trusted, detail-oriented, and experienced service that can help you remove any type of coating from your surface. We will work diligently to ensure that your surface is clean and free of any coating, so you can start fresh with a new coat of paint or sealant.
                                 </p>
@@ -1514,6 +1569,10 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                         sm:opacity-0
                                         group-hover:opacity-100
                                     "
+                                    style="
+                                    display: -webkit-box;
+                                    -webkit-line-clamp: 5;
+                                    -webkit-box-orient: vertical;  "
                                 >
                                     Concrete Restoration is a hardworking and reasonably priced service that pays attention to detail. We take pride in our work and always do our best to meet our customer&#x27;s needs. We offer a wide range of services, so please don&#x27;t hesitate to contact us if you need help with your concrete. Thank you for
                                 </p>
@@ -1700,7 +1759,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
 
                 
                 <!-- Our Best Work Component -->
-<section class="overflow-hidden bg-white">
+<section class="overflow-hidden bg-white" id="gallery">
     <div class="relative px-4 py-12 mx-auto max-w-7xl sm:px-6 lg:py-24 lg:px-8">
         <!-- Heading -->
         <h2>
@@ -1732,7 +1791,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
 <div
     x-data="{
         activeImage: 0,
-        amountOfImages: 24,
+        amountOfImages: 32,
         next() {
             if (this.activeImage < this.amountOfImages - 1)
                 this.activeImage ++;
@@ -1753,7 +1812,8 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 0; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/1059b5ed-46d4-4d2d-9907-245dfaf9f157.jpeg" alt="" />
+                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/960x720/media/1059b5ed-46d4-4d2d-9907-245dfaf9f157.jpeg" alt="" />
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/1059b5ed-46d4-4d2d-9907-245dfaf9f157.jpeg" alt="" /> -->
                         </div>
 
                         <div class="space-y-1 text-lg font-medium leading-6">
@@ -1769,7 +1829,8 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 1; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/6a229c83-9241-4095-89df-c476abe2e8f2.jpeg" alt="" />
+                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/720x540/media/6f37d109-8bdf-4efd-a0aa-e8a69dfa2e60.jpeg" alt="" />
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/6f37d109-8bdf-4efd-a0aa-e8a69dfa2e60.jpeg" alt="" /> -->
                         </div>
 
                         <div class="space-y-1 text-lg font-medium leading-6">
@@ -1785,7 +1846,8 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 2; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/0c8b15d1-0628-457e-aeac-44d52857fdb4.jpeg" alt="" />
+                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/720x540/media/5d8f7181-bfe0-4478-8c27-1c3ba09f0344.jpeg" alt="" />
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/5d8f7181-bfe0-4478-8c27-1c3ba09f0344.jpeg" alt="" /> -->
                         </div>
 
                         <div class="space-y-1 text-lg font-medium leading-6">
@@ -1801,7 +1863,8 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 3; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/deb9176f-7672-4c17-b2df-5bbf27203ffe.png" alt="" />
+                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/960x720/media/6a229c83-9241-4095-89df-c476abe2e8f2.jpeg" alt="" />
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/6a229c83-9241-4095-89df-c476abe2e8f2.jpeg" alt="" /> -->
                         </div>
 
                         <div class="space-y-1 text-lg font-medium leading-6">
@@ -1817,7 +1880,8 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 4; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/7cb71c76-f2e4-46ee-ad2e-cc4c6d41b729.png" alt="" />
+                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/524x699/media/0c8b15d1-0628-457e-aeac-44d52857fdb4.jpeg" alt="" />
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/0c8b15d1-0628-457e-aeac-44d52857fdb4.jpeg" alt="" /> -->
                         </div>
 
                         <div class="space-y-1 text-lg font-medium leading-6">
@@ -1833,7 +1897,8 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 5; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/af40e228-2878-4fff-9cbb-aa3d9c446a85.png" alt="" />
+                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/720x540/media/05389237-657c-4926-b408-03103dba8519.jpeg" alt="" />
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/05389237-657c-4926-b408-03103dba8519.jpeg" alt="" /> -->
                         </div>
 
                         <div class="space-y-1 text-lg font-medium leading-6">
@@ -1849,7 +1914,8 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 6; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/16a17236-afbe-473d-848e-ec67da9900a3.png" alt="" />
+                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/720x960/media/deb9176f-7672-4c17-b2df-5bbf27203ffe.png" alt="" />
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/deb9176f-7672-4c17-b2df-5bbf27203ffe.png" alt="" /> -->
                         </div>
 
                         <div class="space-y-1 text-lg font-medium leading-6">
@@ -1865,7 +1931,8 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 7; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/f7eab75a-7942-4866-8eab-3d7b081b8e6b.png" alt="" />
+                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/720x540/media/4912044b-bd39-48a1-9cb3-789626f195ca.jpeg" alt="" />
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/4912044b-bd39-48a1-9cb3-789626f195ca.jpeg" alt="" /> -->
                         </div>
 
                         <div class="space-y-1 text-lg font-medium leading-6">
@@ -1881,7 +1948,8 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 8; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/c89aa580-327a-4073-8f8c-49ed301f170f.png" alt="" />
+                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/540x720/media/a160bbd5-ba23-484f-ae79-fb608a344e1a.jpeg" alt="" />
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/a160bbd5-ba23-484f-ae79-fb608a344e1a.jpeg" alt="" /> -->
                         </div>
 
                         <div class="space-y-1 text-lg font-medium leading-6">
@@ -1897,7 +1965,8 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 9; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/72606d55-f5a8-4171-9827-0dc49f439fdd.png" alt="" />
+                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/720x960/media/7cb71c76-f2e4-46ee-ad2e-cc4c6d41b729.png" alt="" />
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/7cb71c76-f2e4-46ee-ad2e-cc4c6d41b729.png" alt="" /> -->
                         </div>
 
                         <div class="space-y-1 text-lg font-medium leading-6">
@@ -1913,7 +1982,8 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 10; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/d7149129-3da5-49e2-891f-a644824286b4.png" alt="" />
+                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/720x960/media/af40e228-2878-4fff-9cbb-aa3d9c446a85.png" alt="" />
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/af40e228-2878-4fff-9cbb-aa3d9c446a85.png" alt="" /> -->
                         </div>
 
                         <div class="space-y-1 text-lg font-medium leading-6">
@@ -1929,7 +1999,8 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 11; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/94a5e311-ab0a-49f7-9ac3-029df131990c.png" alt="" />
+                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/720x960/media/f7eab75a-7942-4866-8eab-3d7b081b8e6b.png" alt="" />
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/f7eab75a-7942-4866-8eab-3d7b081b8e6b.png" alt="" /> -->
                         </div>
 
                         <div class="space-y-1 text-lg font-medium leading-6">
@@ -1945,7 +2016,8 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 12; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/9cef7890-77c5-49ee-9755-0464bcd16189.jpeg" alt="" />
+                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/720x960/media/16a17236-afbe-473d-848e-ec67da9900a3.png" alt="" />
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/16a17236-afbe-473d-848e-ec67da9900a3.png" alt="" /> -->
                         </div>
 
                         <div class="space-y-1 text-lg font-medium leading-6">
@@ -1961,7 +2033,8 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 13; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/ada87245-3b36-4d5b-9c66-a615f76ed44d.png" alt="" />
+                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/720x540/media/0e26159d-5878-4919-9ec6-4aafd74b3288.jpeg" alt="" />
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/0e26159d-5878-4919-9ec6-4aafd74b3288.jpeg" alt="" /> -->
                         </div>
 
                         <div class="space-y-1 text-lg font-medium leading-6">
@@ -1977,7 +2050,8 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 14; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/df1028d5-6c56-4cad-ad84-899f6f90de1e.jpeg" alt="" />
+                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/720x960/media/c89aa580-327a-4073-8f8c-49ed301f170f.png" alt="" />
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/c89aa580-327a-4073-8f8c-49ed301f170f.png" alt="" /> -->
                         </div>
 
                         <div class="space-y-1 text-lg font-medium leading-6">
@@ -1993,7 +2067,8 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 15; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/2de34fca-04b8-4455-8569-6300520b044d.jpeg" alt="" />
+                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/720x960/media/72606d55-f5a8-4171-9827-0dc49f439fdd.png" alt="" />
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/72606d55-f5a8-4171-9827-0dc49f439fdd.png" alt="" /> -->
                         </div>
 
                         <div class="space-y-1 text-lg font-medium leading-6">
@@ -2009,7 +2084,8 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 16; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/5727dac7-52e2-40e5-9df6-1784e483978c.jpeg" alt="" />
+                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/960x720/media/d7149129-3da5-49e2-891f-a644824286b4.png" alt="" />
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/d7149129-3da5-49e2-891f-a644824286b4.png" alt="" /> -->
                         </div>
 
                         <div class="space-y-1 text-lg font-medium leading-6">
@@ -2025,7 +2101,8 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 17; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/8c05c339-856f-40e6-88f1-c634aca62b4d.jpeg" alt="" />
+                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1440x1080/media/94a5e311-ab0a-49f7-9ac3-029df131990c.png" alt="" />
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/94a5e311-ab0a-49f7-9ac3-029df131990c.png" alt="" /> -->
                         </div>
 
                         <div class="space-y-1 text-lg font-medium leading-6">
@@ -2041,7 +2118,8 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 18; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/7628afc3-713b-4e83-b5fa-a0db618b6cd3.jpeg" alt="" />
+                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/720x960/media/9cef7890-77c5-49ee-9755-0464bcd16189.jpeg" alt="" />
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/9cef7890-77c5-49ee-9755-0464bcd16189.jpeg" alt="" /> -->
                         </div>
 
                         <div class="space-y-1 text-lg font-medium leading-6">
@@ -2057,7 +2135,8 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 19; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/9459b161-ec60-45d9-8dfd-751a6c605547.jpeg" alt="" />
+                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1440x1080/media/ada87245-3b36-4d5b-9c66-a615f76ed44d.png" alt="" />
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/ada87245-3b36-4d5b-9c66-a615f76ed44d.png" alt="" /> -->
                         </div>
 
                         <div class="space-y-1 text-lg font-medium leading-6">
@@ -2073,7 +2152,8 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 20; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/f9a8a7b9-db91-4ba7-bc8a-0eb351521048.jpeg" alt="" />
+                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/540x720/media/df1028d5-6c56-4cad-ad84-899f6f90de1e.jpeg" alt="" />
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/df1028d5-6c56-4cad-ad84-899f6f90de1e.jpeg" alt="" /> -->
                         </div>
 
                         <div class="space-y-1 text-lg font-medium leading-6">
@@ -2089,7 +2169,8 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 21; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/a8ab3c77-8aa9-43c0-b053-718b919946e2.jpeg" alt="" />
+                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/720x960/media/2de34fca-04b8-4455-8569-6300520b044d.jpeg" alt="" />
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/2de34fca-04b8-4455-8569-6300520b044d.jpeg" alt="" /> -->
                         </div>
 
                         <div class="space-y-1 text-lg font-medium leading-6">
@@ -2105,7 +2186,8 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 22; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/1298bfa5-e423-4a46-b528-0e21b275d8f5.jpeg" alt="" />
+                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/720x960/media/5727dac7-52e2-40e5-9df6-1784e483978c.jpeg" alt="" />
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/5727dac7-52e2-40e5-9df6-1784e483978c.jpeg" alt="" /> -->
                         </div>
 
                         <div class="space-y-1 text-lg font-medium leading-6">
@@ -2121,7 +2203,144 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 23; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/087d1c3b-7b19-42bb-844d-4ed0bba25c5a.jpeg" alt="" />
+                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/960x720/media/8c05c339-856f-40e6-88f1-c634aca62b4d.jpeg" alt="" />
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/8c05c339-856f-40e6-88f1-c634aca62b4d.jpeg" alt="" /> -->
+                        </div>
+
+                        <div class="space-y-1 text-lg font-medium leading-6">
+                            <p class="line-clamp-3"></p>
+                            <h3 class="text-primary"></h3>
+                        </div>
+                    </button>
+                </div>
+            </li>
+        
+            <!-- Single Item - We only want to show 3 items on mobile so we check the current index and attach a hidden class if necessary -->
+            <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true">
+                <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                    <button @click="activeImage = 24; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                        <div class="aspect-w-3 aspect-h-2">
+                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/960x720/media/7628afc3-713b-4e83-b5fa-a0db618b6cd3.jpeg" alt="" />
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/7628afc3-713b-4e83-b5fa-a0db618b6cd3.jpeg" alt="" /> -->
+                        </div>
+
+                        <div class="space-y-1 text-lg font-medium leading-6">
+                            <p class="line-clamp-3"></p>
+                            <h3 class="text-primary"></h3>
+                        </div>
+                    </button>
+                </div>
+            </li>
+        
+            <!-- Single Item - We only want to show 3 items on mobile so we check the current index and attach a hidden class if necessary -->
+            <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true">
+                <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                    <button @click="activeImage = 25; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                        <div class="aspect-w-3 aspect-h-2">
+                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/960x720/media/f9a8a7b9-db91-4ba7-bc8a-0eb351521048.jpeg" alt="" />
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/f9a8a7b9-db91-4ba7-bc8a-0eb351521048.jpeg" alt="" /> -->
+                        </div>
+
+                        <div class="space-y-1 text-lg font-medium leading-6">
+                            <p class="line-clamp-3"></p>
+                            <h3 class="text-primary"></h3>
+                        </div>
+                    </button>
+                </div>
+            </li>
+        
+            <!-- Single Item - We only want to show 3 items on mobile so we check the current index and attach a hidden class if necessary -->
+            <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true">
+                <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                    <button @click="activeImage = 26; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                        <div class="aspect-w-3 aspect-h-2">
+                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/960x720/media/9459b161-ec60-45d9-8dfd-751a6c605547.jpeg" alt="" />
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/9459b161-ec60-45d9-8dfd-751a6c605547.jpeg" alt="" /> -->
+                        </div>
+
+                        <div class="space-y-1 text-lg font-medium leading-6">
+                            <p class="line-clamp-3"></p>
+                            <h3 class="text-primary"></h3>
+                        </div>
+                    </button>
+                </div>
+            </li>
+        
+            <!-- Single Item - We only want to show 3 items on mobile so we check the current index and attach a hidden class if necessary -->
+            <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true">
+                <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                    <button @click="activeImage = 27; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                        <div class="aspect-w-3 aspect-h-2">
+                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/720x540/media/a8ab3c77-8aa9-43c0-b053-718b919946e2.jpeg" alt="" />
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/a8ab3c77-8aa9-43c0-b053-718b919946e2.jpeg" alt="" /> -->
+                        </div>
+
+                        <div class="space-y-1 text-lg font-medium leading-6">
+                            <p class="line-clamp-3"></p>
+                            <h3 class="text-primary"></h3>
+                        </div>
+                    </button>
+                </div>
+            </li>
+        
+            <!-- Single Item - We only want to show 3 items on mobile so we check the current index and attach a hidden class if necessary -->
+            <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true">
+                <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                    <button @click="activeImage = 28; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                        <div class="aspect-w-3 aspect-h-2">
+                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/960x720/media/087d1c3b-7b19-42bb-844d-4ed0bba25c5a.jpeg" alt="" />
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/087d1c3b-7b19-42bb-844d-4ed0bba25c5a.jpeg" alt="" /> -->
+                        </div>
+
+                        <div class="space-y-1 text-lg font-medium leading-6">
+                            <p class="line-clamp-3"></p>
+                            <h3 class="text-primary"></h3>
+                        </div>
+                    </button>
+                </div>
+            </li>
+        
+            <!-- Single Item - We only want to show 3 items on mobile so we check the current index and attach a hidden class if necessary -->
+            <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true">
+                <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                    <button @click="activeImage = 29; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                        <div class="aspect-w-3 aspect-h-2">
+                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/509x381/media/1298bfa5-e423-4a46-b528-0e21b275d8f5.jpeg" alt="" />
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/1298bfa5-e423-4a46-b528-0e21b275d8f5.jpeg" alt="" /> -->
+                        </div>
+
+                        <div class="space-y-1 text-lg font-medium leading-6">
+                            <p class="line-clamp-3"></p>
+                            <h3 class="text-primary"></h3>
+                        </div>
+                    </button>
+                </div>
+            </li>
+        
+            <!-- Single Item - We only want to show 3 items on mobile so we check the current index and attach a hidden class if necessary -->
+            <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true">
+                <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                    <button @click="activeImage = 30; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                        <div class="aspect-w-3 aspect-h-2">
+                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/540x720/media/a23cc60b-b4aa-4151-91c3-f0d6986909d2.jpeg" alt="" />
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/a23cc60b-b4aa-4151-91c3-f0d6986909d2.jpeg" alt="" /> -->
+                        </div>
+
+                        <div class="space-y-1 text-lg font-medium leading-6">
+                            <p class="line-clamp-3"></p>
+                            <h3 class="text-primary"></h3>
+                        </div>
+                    </button>
+                </div>
+            </li>
+        
+            <!-- Single Item - We only want to show 3 items on mobile so we check the current index and attach a hidden class if necessary -->
+            <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true">
+                <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                    <button @click="activeImage = 31; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                        <div class="aspect-w-3 aspect-h-2">
+                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/540x720/media/887f01c6-2d2e-4510-a444-6ad3bc1b17ba.jpeg" alt="" />
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/887f01c6-2d2e-4510-a444-6ad3bc1b17ba.jpeg" alt="" /> -->
                         </div>
 
                         <div class="space-y-1 text-lg font-medium leading-6">
@@ -2188,139 +2407,187 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                 
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 1">
-                                        <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/6a229c83-9241-4095-89df-c476abe2e8f2.jpeg" alt="placeholder image" />
+                                        <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/6f37d109-8bdf-4efd-a0aa-e8a69dfa2e60.jpeg" alt="placeholder image" />
                                         <p lorem="1" class="mt-3 text-gray-500"></p>
                                     </li>
                                 
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 2">
-                                        <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/0c8b15d1-0628-457e-aeac-44d52857fdb4.jpeg" alt="placeholder image" />
+                                        <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/5d8f7181-bfe0-4478-8c27-1c3ba09f0344.jpeg" alt="placeholder image" />
                                         <p lorem="1" class="mt-3 text-gray-500"></p>
                                     </li>
                                 
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 3">
-                                        <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/deb9176f-7672-4c17-b2df-5bbf27203ffe.png" alt="placeholder image" />
+                                        <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/6a229c83-9241-4095-89df-c476abe2e8f2.jpeg" alt="placeholder image" />
                                         <p lorem="1" class="mt-3 text-gray-500"></p>
                                     </li>
                                 
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 4">
-                                        <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/7cb71c76-f2e4-46ee-ad2e-cc4c6d41b729.png" alt="placeholder image" />
+                                        <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/0c8b15d1-0628-457e-aeac-44d52857fdb4.jpeg" alt="placeholder image" />
                                         <p lorem="1" class="mt-3 text-gray-500"></p>
                                     </li>
                                 
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 5">
-                                        <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/af40e228-2878-4fff-9cbb-aa3d9c446a85.png" alt="placeholder image" />
+                                        <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/05389237-657c-4926-b408-03103dba8519.jpeg" alt="placeholder image" />
                                         <p lorem="1" class="mt-3 text-gray-500"></p>
                                     </li>
                                 
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 6">
-                                        <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/16a17236-afbe-473d-848e-ec67da9900a3.png" alt="placeholder image" />
+                                        <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/deb9176f-7672-4c17-b2df-5bbf27203ffe.png" alt="placeholder image" />
                                         <p lorem="1" class="mt-3 text-gray-500"></p>
                                     </li>
                                 
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 7">
-                                        <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/f7eab75a-7942-4866-8eab-3d7b081b8e6b.png" alt="placeholder image" />
+                                        <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/4912044b-bd39-48a1-9cb3-789626f195ca.jpeg" alt="placeholder image" />
                                         <p lorem="1" class="mt-3 text-gray-500"></p>
                                     </li>
                                 
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 8">
-                                        <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/c89aa580-327a-4073-8f8c-49ed301f170f.png" alt="placeholder image" />
+                                        <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/a160bbd5-ba23-484f-ae79-fb608a344e1a.jpeg" alt="placeholder image" />
                                         <p lorem="1" class="mt-3 text-gray-500"></p>
                                     </li>
                                 
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 9">
-                                        <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/72606d55-f5a8-4171-9827-0dc49f439fdd.png" alt="placeholder image" />
+                                        <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/7cb71c76-f2e4-46ee-ad2e-cc4c6d41b729.png" alt="placeholder image" />
                                         <p lorem="1" class="mt-3 text-gray-500"></p>
                                     </li>
                                 
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 10">
-                                        <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/d7149129-3da5-49e2-891f-a644824286b4.png" alt="placeholder image" />
+                                        <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/af40e228-2878-4fff-9cbb-aa3d9c446a85.png" alt="placeholder image" />
                                         <p lorem="1" class="mt-3 text-gray-500"></p>
                                     </li>
                                 
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 11">
-                                        <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/94a5e311-ab0a-49f7-9ac3-029df131990c.png" alt="placeholder image" />
+                                        <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/f7eab75a-7942-4866-8eab-3d7b081b8e6b.png" alt="placeholder image" />
                                         <p lorem="1" class="mt-3 text-gray-500"></p>
                                     </li>
                                 
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 12">
-                                        <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/9cef7890-77c5-49ee-9755-0464bcd16189.jpeg" alt="placeholder image" />
+                                        <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/16a17236-afbe-473d-848e-ec67da9900a3.png" alt="placeholder image" />
                                         <p lorem="1" class="mt-3 text-gray-500"></p>
                                     </li>
                                 
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 13">
-                                        <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/ada87245-3b36-4d5b-9c66-a615f76ed44d.png" alt="placeholder image" />
+                                        <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/0e26159d-5878-4919-9ec6-4aafd74b3288.jpeg" alt="placeholder image" />
                                         <p lorem="1" class="mt-3 text-gray-500"></p>
                                     </li>
                                 
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 14">
-                                        <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/df1028d5-6c56-4cad-ad84-899f6f90de1e.jpeg" alt="placeholder image" />
+                                        <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/c89aa580-327a-4073-8f8c-49ed301f170f.png" alt="placeholder image" />
                                         <p lorem="1" class="mt-3 text-gray-500"></p>
                                     </li>
                                 
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 15">
-                                        <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/2de34fca-04b8-4455-8569-6300520b044d.jpeg" alt="placeholder image" />
+                                        <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/72606d55-f5a8-4171-9827-0dc49f439fdd.png" alt="placeholder image" />
                                         <p lorem="1" class="mt-3 text-gray-500"></p>
                                     </li>
                                 
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 16">
-                                        <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/5727dac7-52e2-40e5-9df6-1784e483978c.jpeg" alt="placeholder image" />
+                                        <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/d7149129-3da5-49e2-891f-a644824286b4.png" alt="placeholder image" />
                                         <p lorem="1" class="mt-3 text-gray-500"></p>
                                     </li>
                                 
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 17">
-                                        <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/8c05c339-856f-40e6-88f1-c634aca62b4d.jpeg" alt="placeholder image" />
+                                        <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/94a5e311-ab0a-49f7-9ac3-029df131990c.png" alt="placeholder image" />
                                         <p lorem="1" class="mt-3 text-gray-500"></p>
                                     </li>
                                 
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 18">
-                                        <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/7628afc3-713b-4e83-b5fa-a0db618b6cd3.jpeg" alt="placeholder image" />
+                                        <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/9cef7890-77c5-49ee-9755-0464bcd16189.jpeg" alt="placeholder image" />
                                         <p lorem="1" class="mt-3 text-gray-500"></p>
                                     </li>
                                 
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 19">
-                                        <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/9459b161-ec60-45d9-8dfd-751a6c605547.jpeg" alt="placeholder image" />
+                                        <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/ada87245-3b36-4d5b-9c66-a615f76ed44d.png" alt="placeholder image" />
                                         <p lorem="1" class="mt-3 text-gray-500"></p>
                                     </li>
                                 
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 20">
-                                        <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/f9a8a7b9-db91-4ba7-bc8a-0eb351521048.jpeg" alt="placeholder image" />
+                                        <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/df1028d5-6c56-4cad-ad84-899f6f90de1e.jpeg" alt="placeholder image" />
                                         <p lorem="1" class="mt-3 text-gray-500"></p>
                                     </li>
                                 
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 21">
-                                        <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/a8ab3c77-8aa9-43c0-b053-718b919946e2.jpeg" alt="placeholder image" />
+                                        <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/2de34fca-04b8-4455-8569-6300520b044d.jpeg" alt="placeholder image" />
                                         <p lorem="1" class="mt-3 text-gray-500"></p>
                                     </li>
                                 
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 22">
-                                        <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/1298bfa5-e423-4a46-b528-0e21b275d8f5.jpeg" alt="placeholder image" />
+                                        <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/5727dac7-52e2-40e5-9df6-1784e483978c.jpeg" alt="placeholder image" />
                                         <p lorem="1" class="mt-3 text-gray-500"></p>
                                     </li>
                                 
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 23">
+                                        <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/8c05c339-856f-40e6-88f1-c634aca62b4d.jpeg" alt="placeholder image" />
+                                        <p lorem="1" class="mt-3 text-gray-500"></p>
+                                    </li>
+                                
+                                    <!-- Transition Wrapper 1 -->
+                                    <li class="flex flex-col" x-show="activeImage === 24">
+                                        <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/7628afc3-713b-4e83-b5fa-a0db618b6cd3.jpeg" alt="placeholder image" />
+                                        <p lorem="1" class="mt-3 text-gray-500"></p>
+                                    </li>
+                                
+                                    <!-- Transition Wrapper 1 -->
+                                    <li class="flex flex-col" x-show="activeImage === 25">
+                                        <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/f9a8a7b9-db91-4ba7-bc8a-0eb351521048.jpeg" alt="placeholder image" />
+                                        <p lorem="1" class="mt-3 text-gray-500"></p>
+                                    </li>
+                                
+                                    <!-- Transition Wrapper 1 -->
+                                    <li class="flex flex-col" x-show="activeImage === 26">
+                                        <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/9459b161-ec60-45d9-8dfd-751a6c605547.jpeg" alt="placeholder image" />
+                                        <p lorem="1" class="mt-3 text-gray-500"></p>
+                                    </li>
+                                
+                                    <!-- Transition Wrapper 1 -->
+                                    <li class="flex flex-col" x-show="activeImage === 27">
+                                        <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/a8ab3c77-8aa9-43c0-b053-718b919946e2.jpeg" alt="placeholder image" />
+                                        <p lorem="1" class="mt-3 text-gray-500"></p>
+                                    </li>
+                                
+                                    <!-- Transition Wrapper 1 -->
+                                    <li class="flex flex-col" x-show="activeImage === 28">
                                         <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/087d1c3b-7b19-42bb-844d-4ed0bba25c5a.jpeg" alt="placeholder image" />
+                                        <p lorem="1" class="mt-3 text-gray-500"></p>
+                                    </li>
+                                
+                                    <!-- Transition Wrapper 1 -->
+                                    <li class="flex flex-col" x-show="activeImage === 29">
+                                        <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/1298bfa5-e423-4a46-b528-0e21b275d8f5.jpeg" alt="placeholder image" />
+                                        <p lorem="1" class="mt-3 text-gray-500"></p>
+                                    </li>
+                                
+                                    <!-- Transition Wrapper 1 -->
+                                    <li class="flex flex-col" x-show="activeImage === 30">
+                                        <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/a23cc60b-b4aa-4151-91c3-f0d6986909d2.jpeg" alt="placeholder image" />
+                                        <p lorem="1" class="mt-3 text-gray-500"></p>
+                                    </li>
+                                
+                                    <!-- Transition Wrapper 1 -->
+                                    <li class="flex flex-col" x-show="activeImage === 31">
+                                        <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/887f01c6-2d2e-4510-a444-6ad3bc1b17ba.jpeg" alt="placeholder image" />
                                         <p lorem="1" class="mt-3 text-gray-500"></p>
                                     </li>
                                 
@@ -2356,7 +2623,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
 
                 
                 <!-- Reviews Component -->
-<section class="bg-white">
+<section class="bg-white" id="reviews">
     <div class="px-4 py-12 mx-auto max-w-7xl sm:px-6  lg:pt-32 lg:pb-16  lg:px-8">
 
     <!-- <div class="px-4 py-12 mx-auto max-w-7xl sm:px-6 lg:pt-32 lg:pb-16 lg:px-8"> -->
@@ -2673,7 +2940,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                 type="button"
                                 @click="expanded = !expanded"
                                 class="flex items-start justify-between w-full text-left text-gray-400 rounded  focus:outline-none focus-visible:ring-2 ring-primary"
-                                aria-controls="18860"
+                                aria-controls="24276"
                                 :aria-expanded="expanded"
                             >
                                 <span class="font-medium text-gray-900">What&#x27;s the best way to reach you?</span>
@@ -2693,7 +2960,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                 </span>
                             </button>
                         </dt>
-                        <dd x-show="expanded" x-cloak x-collapse class="pr-12" id="18860">
+                        <dd x-show="expanded" x-cloak x-collapse class="pr-12" id="24276">
                             <div aria-hidden="true" class="invisible h-2"></div>
                             <p class="mt-2 text-base text-gray-500">Give us a call or send us a text at +1 618-303-3343. Thanks!</p>
                         </dd>
@@ -2714,7 +2981,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                 type="button"
                                 @click="expanded = !expanded"
                                 class="flex items-start justify-between w-full text-left text-gray-400 rounded  focus:outline-none focus-visible:ring-2 ring-primary"
-                                aria-controls="18861"
+                                aria-controls="24277"
                                 :aria-expanded="expanded"
                             >
                                 <span class="font-medium text-gray-900">Do you provide free estimates?</span>
@@ -2734,7 +3001,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                 </span>
                             </button>
                         </dt>
-                        <dd x-show="expanded" x-cloak x-collapse class="pr-12" id="18861">
+                        <dd x-show="expanded" x-cloak x-collapse class="pr-12" id="24277">
                             <div aria-hidden="true" class="invisible h-2"></div>
                             <p class="mt-2 text-base text-gray-500">Yes, we&#x27;ll always estimate the job for free. Just give us a call to get started.</p>
                         </dd>
@@ -2755,7 +3022,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                 type="button"
                                 @click="expanded = !expanded"
                                 class="flex items-start justify-between w-full text-left text-gray-400 rounded  focus:outline-none focus-visible:ring-2 ring-primary"
-                                aria-controls="18862"
+                                aria-controls="24278"
                                 :aria-expanded="expanded"
                             >
                                 <span class="font-medium text-gray-900">How are you different?</span>
@@ -2775,7 +3042,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                 </span>
                             </button>
                         </dt>
-                        <dd x-show="expanded" x-cloak x-collapse class="pr-12" id="18862">
+                        <dd x-show="expanded" x-cloak x-collapse class="pr-12" id="24278">
                             <div aria-hidden="true" class="invisible h-2"></div>
                             <p class="mt-2 text-base text-gray-500">We&#x27;re a customer-first company that will do whatever it takes to make sure the job is well done.</p>
                         </dd>
@@ -3029,27 +3296,28 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                     >Home</a
                                 >
                             </li>
+                            
+                                
+                                <li>
+                                    <a
+                                        href="#gallery"
+                                        class="p-1 text-base text-gray-500 rounded hover:text-gray-900 focus:ring-2 focus:outline-none ring-primary ring-opacity-75"
+                                        >Gallery</a
+                                    >
+                                </li>
+                                
+                            
+                            
                             <li>
                                 <a
-                                    href="#"
-                                    class="p-1 text-base text-gray-500 rounded hover:text-gray-900 focus:ring-2 focus:outline-none ring-primary ring-opacity-75"
-                                    >Gallery</a
-                                >
-                            </li>
-                            <li>
-                                <a
-                                    href="#"
+                                    href="reviews"
                                     class="p-1 text-base text-gray-500 rounded hover:text-gray-900 focus:ring-2 focus:outline-none ring-primary ring-opacity-75"
                                     >Reviews</a
                                 >
                             </li>
-                            <li>
-                                <a
-                                    href="#"
-                                    class="p-1 text-base text-gray-500 rounded hover:text-gray-900 focus:ring-2 focus:outline-none ring-primary ring-opacity-75"
-                                    >Team</a
-                                >
-                            </li>
+                            
+                            
+                            
                         </ul>
                     </div>
                     <!-- Services Links -->
@@ -3059,7 +3327,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                             
                             <li>
                                 <a
-                                    href="service-service-Polished-Concrete"
+                                    href="service-Polished-Concrete"
                                     class="p-1 text-base text-gray-500 rounded hover:text-gray-900 focus:ring-2 focus:outline-none ring-primary ring-opacity-75"
                                     >Polished Concrete</a
                                 >
@@ -3067,7 +3335,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                             
                             <li>
                                 <a
-                                    href="service-service-Overlay-Systems"
+                                    href="service-Overlay-Systems"
                                     class="p-1 text-base text-gray-500 rounded hover:text-gray-900 focus:ring-2 focus:outline-none ring-primary ring-opacity-75"
                                     >Overlay Systems</a
                                 >
@@ -3075,7 +3343,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                             
                             <li>
                                 <a
-                                    href="service-service-Epoxy-Systems-"
+                                    href="service-Epoxy-Systems-"
                                     class="p-1 text-base text-gray-500 rounded hover:text-gray-900 focus:ring-2 focus:outline-none ring-primary ring-opacity-75"
                                     >Epoxy Systems </a
                                 >
@@ -3083,7 +3351,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                             
                             <li>
                                 <a
-                                    href="service-service-Stain"
+                                    href="service-Stain"
                                     class="p-1 text-base text-gray-500 rounded hover:text-gray-900 focus:ring-2 focus:outline-none ring-primary ring-opacity-75"
                                     >Stain</a
                                 >
@@ -3091,7 +3359,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                             
                             <li>
                                 <a
-                                    href="service-service-Coatings-Removal-"
+                                    href="service-Coatings-Removal-"
                                     class="p-1 text-base text-gray-500 rounded hover:text-gray-900 focus:ring-2 focus:outline-none ring-primary ring-opacity-75"
                                     >Coatings Removal </a
                                 >
@@ -3099,7 +3367,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                             
                             <li>
                                 <a
-                                    href="service-service-Concrete-Restoration"
+                                    href="service-Concrete-Restoration"
                                     class="p-1 text-base text-gray-500 rounded hover:text-gray-900 focus:ring-2 focus:outline-none ring-primary ring-opacity-75"
                                     >Concrete Restoration</a
                                 >
@@ -3269,7 +3537,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                 <!-- Header -->
                 <div class="relative px-6 bg-white">
                     <!-- Title -->
-                    <h2 class="mt-16 mb-2 text-lg font-medium text-center" :id="$id('modal-title')">Send us a text</h2>
+                    <h2 class="mt-6 text-lg font-medium text-center" :id="$id('modal-title')">Send us a text</h2>
                     <!-- Small overlay for scrolling area  -->
                     <div aria-hidden="true" class="absolute inset-x-0 h-8 -bottom-8 bg-gradient-to-b from-white"></div>
                     <button
@@ -3332,7 +3600,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                 placeholder="Address"
                             />
                         </div>
-                        <!-- Preferred date of service -->
+                        <!-- Preferred date of service
                         <div>
                             <label for="contact-date" class="sr-only">Preferred Date of Service</label>
                             <input
@@ -3342,9 +3610,9 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                 class="block w-full border-gray-300 py-2.5 rounded-md shadow-sm focus:ring-primary focus:border-primary sm:text-sm"
                                 placeholder="Preferred Date of Service"
                             />
-                        </div>
+                        </div> -->
                         <!-- Promo Code -->
-                        <div>
+                        <!-- <div>
                             <label for="contact-promo-code" class="sr-only">Promo Code</label>
                             <input
                                 type="text"
@@ -3353,7 +3621,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                 class="block w-full border-gray-300 py-2.5 rounded-md shadow-sm focus:ring-primary focus:border-primary sm:text-sm"
                                 placeholder="Promo Code"
                             />
-                        </div>
+                        </div> -->
                         <!-- How can we help you? (Concern) -->
                         <div>
                             <label for="contact-concern" class="sr-only">How can we help you?</label>
@@ -3373,62 +3641,62 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-85775"
-                                            name="85775"
+                                            id="contact-service-103116"
+                                            name="103116"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-85775" class="ml-3 text-sm font-medium text-gray-700">Polished Concrete</label>
+                                        <label for="contact-label-service-103116" class="ml-3 text-sm font-medium text-gray-700">Polished Concrete</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-85776"
-                                            name="85776"
+                                            id="contact-service-103117"
+                                            name="103117"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-85776" class="ml-3 text-sm font-medium text-gray-700">Overlay Systems</label>
+                                        <label for="contact-label-service-103117" class="ml-3 text-sm font-medium text-gray-700">Overlay Systems</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-85777"
-                                            name="85777"
+                                            id="contact-service-103118"
+                                            name="103118"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-85777" class="ml-3 text-sm font-medium text-gray-700">Epoxy Systems </label>
+                                        <label for="contact-label-service-103118" class="ml-3 text-sm font-medium text-gray-700">Epoxy Systems </label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-85778"
-                                            name="85778"
+                                            id="contact-service-103119"
+                                            name="103119"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-85778" class="ml-3 text-sm font-medium text-gray-700">Stain</label>
+                                        <label for="contact-label-service-103119" class="ml-3 text-sm font-medium text-gray-700">Stain</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-85779"
-                                            name="85779"
+                                            id="contact-service-103120"
+                                            name="103120"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-85779" class="ml-3 text-sm font-medium text-gray-700">Coatings Removal </label>
+                                        <label for="contact-label-service-103120" class="ml-3 text-sm font-medium text-gray-700">Coatings Removal </label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-85780"
-                                            name="85780"
+                                            id="contact-service-103121"
+                                            name="103121"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-85780" class="ml-3 text-sm font-medium text-gray-700">Concrete Restoration</label>
+                                        <label for="contact-label-service-103121" class="ml-3 text-sm font-medium text-gray-700">Concrete Restoration</label>
                                     </div>
                                 
                             </div>
